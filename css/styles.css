@@ -602,6 +602,15 @@ pre code {
   width: 50%;
 }
 
+.swiper-container {
+    height: 400px;
+}
+
+.swiper-container img{
+    height: 100%;
+    width: 100%;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
