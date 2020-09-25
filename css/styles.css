@@ -4131,7 +4131,7 @@ input[type=button].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
+  background-color: #000;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
@@ -10196,7 +10196,7 @@ body {
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -10205,13 +10205,13 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #000;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000000;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000000;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -10288,9 +10288,19 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: #1a1a1a;
 }
+
 .about-section p {
+  margin-bottom: 5rem;
+}
+
+.about-sectionwhite {
+  padding-top: 10rem;
+  background: #fff;
+}
+
+.about-sectionwhite  p {
   margin-bottom: 5rem;
 }
 
