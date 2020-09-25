@@ -88,6 +88,9 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 16px;
+  line-height: 1.55;
+  font-weight: 400;
 }
 
 abbr[title],
@@ -376,7 +379,10 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: 'PT Sans',Arial,sans-serif;
+  font-size: 16px;
 }
 
 h4, .h4 {
@@ -10027,7 +10033,7 @@ a.text-black:hover, a.text-black:focus {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: #fff;
 }
 
 .text-hide {
