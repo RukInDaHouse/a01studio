@@ -595,6 +595,13 @@ pre code {
     max-width: 1140px;
   }
 }
+
+.logo {
+  max-width: 70px; 
+  width: 70px;
+  width: 50%;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
