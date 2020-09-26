@@ -2513,6 +2513,12 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+hr {
+  border: 1px solid #fff; 
+  background-color: #000;
+  margin: 0; 
+}
+
 .btn-primary {
   color: #fff;
   background-color: #64a19d;
