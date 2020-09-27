@@ -74,11 +74,7 @@ body {
   outline: 0 !important;
 }
 
-hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -2480,6 +2476,7 @@ hr {
   border: 1px solid #fff; 
   background-color: #000;
   margin: 0; 
+  padding: 0;
 }
 
 .fade {
@@ -9706,7 +9703,6 @@ body {
   margin-top: 7vh;
   overflow: hidden;
   border: 1px solid #000;
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
   transition: 0.5s;
   letter-spacing: 1px;
@@ -9715,7 +9711,6 @@ body {
 .button-container-2 button {
   width: 101%;
   height: 100%;
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 11px;
   letter-spacing: 1px;
@@ -9742,7 +9737,6 @@ body {
   color: #000;
   text-align: center;
   width: 101%;
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
   position: absolute;
   font-size: 11px;
