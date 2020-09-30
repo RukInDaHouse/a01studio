@@ -38,14 +38,40 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "FuturaMediumC";
+    src: url("../fonts/FuturaMediumC.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FuturaBookC";
+    src: url("../fonts/FuturaBookC.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FuturaDemiC";
+    src: url("../fonts/FuturaDemiC.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FuturaLightC";
+    src: url("../fonts/FuturaLightC.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
 
 html {
@@ -61,7 +87,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: FuturaMediumC;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -90,7 +116,7 @@ p {
   font-size: 20px;
   line-hight: 1.55;
   font-weight: 500;
-}e
+}
 
 abbr[title],
 abbr[data-original-title] {
@@ -379,14 +405,14 @@ h1, .h1 {
 h2, .h2 {
   font-size: 30px;
   font-weight: 500;
-  font-family: 'PT Sans',Arial,sans-serif;
+  font-family: FuturaMediumC;
   line-height: 30px;
 }
 
 h3, .h3 {
   font-size: 3.5rem;
   font-weight: 700;
-  font-family: 'PT Sans',Arial,sans-serif;
+  font-family: FuturaMediumC;
   font-size: 16px;
 }
 
@@ -432,10 +458,13 @@ h6, .h6 {
 }
 
 hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bot {
+  margin-bottom: 3rem !important;
+  margin-top: 1.5rem !important;
 }
 
 small,
@@ -489,6 +518,14 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  float: left;
+}
+
+.raz{
+  position: absolute;
+  left: 0;
+  text-align: left;
+
 }
 
 .img-thumbnail {
@@ -9541,7 +9578,7 @@ body {
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: FuturaMediumC;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -9561,7 +9598,7 @@ body {
   background-size: cover;
 }
 .masthead h1 {
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: FuturaMediumC;
   font-size: 0.5rem;
   line-height: 2.5rem;
   letter-spacing: 1px;
@@ -9655,7 +9692,7 @@ body {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: FuturaMediumC;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -9671,7 +9708,7 @@ body {
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: FuturaMediumC;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -9701,7 +9738,11 @@ body {
 
 .footer {
   padding: 5rem 0;
+  background: #E5E5E5;
 }
+
+
+
 .button-container-2 {
   position: relative;
   width: 75%;
@@ -9721,7 +9762,7 @@ body {
   width: 101%;
   height: 100%;
   font-weight: 300;
-  font-size: 11px;
+  font-size: 1,5px;
   letter-spacing: 1px;
   font-weight: bold;
   background: #000;
@@ -9748,8 +9789,8 @@ body {
   width: 101%;
   font-weight: 300;
   position: absolute;
-  font-size: 11px;
-  margin-top: 17px;
+  font-size: 20px;
+  margin-top: 10px;
   overflow: hidden;
   font-weight: bold;
 }
