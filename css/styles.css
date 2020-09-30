@@ -9597,6 +9597,20 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
+
+.masthead2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: #1A1A1A;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 .masthead h1 {
   font-family: FuturaMediumC;
   font-size: 0.5rem;
