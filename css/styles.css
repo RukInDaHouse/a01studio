@@ -276,7 +276,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: FuturaMediumC;
   font-size: inherit;
   line-height: inherit;
 }
@@ -9769,7 +9769,6 @@ body {
   height: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 7vh;
   overflow: hidden;
   border: 1px solid #000;
   font-weight: 300;
@@ -9781,6 +9780,8 @@ body {
 .button-container-2 button {
   width: 101%;
   height: 100%;
+    font-family: FuturaBookC;
+
   font-weight: 300;
   font-size: 1,5px;
   letter-spacing: 1px;
@@ -10485,6 +10486,7 @@ button.swiper-pagination-bullet {
   background-color: #1A1A1A;
   overflow: hidden;
   padding-bottom: 200px;
+  font-family: FuturaMediumC;
 }
 
 .section-header {
@@ -10492,8 +10494,7 @@ button.swiper-pagination-bullet {
   margin: 0 auto;
   padding-top: 50px;
   margin-bottom: 50px;
-  font: 300 60px 'Oswald', sans-serif;
-  letter-spacing: 6px;
+  font-family: FuturaMediumC;
   color: #fff;
   margin-bottom: 25px;
 }
@@ -10521,8 +10522,8 @@ button.swiper-pagination-bullet {
 }
 
 .send-button {
-  margin-top: 15px;
-  height: 34px;
+  
+  
   width: 400px;
   overflow: hidden;
   transition: all .2s ease-in-out;
@@ -10565,7 +10566,8 @@ button.swiper-pagination-bullet {
 }
 
 .contact-text {
-  font: 300 18px 'Lato', sans-serif;
+  font-family: FuturaMediumC;
+  font-size: 20px;
   letter-spacing: 1.9px;
   color: #bbb;
 }
