@@ -193,14 +193,38 @@ sup {
 }
 
 a {
-  color: #64a19d;
-  text-decoration: none;
-  background-color: transparent;
+  display: inline-block;
+    color: #fff;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
 }
-a:hover {
-  color: #467370;
-  text-decoration: underline;
+
+a:after {
+    display: block;
+    content: "";
+    background-color: #fff;
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
+
+a:hover:after,
+a:focus:after {
+width: 70%;
+}
+
+a:hover{
+color:#225384;
+} 
 
 a:not([href]) {
   color: inherit;
