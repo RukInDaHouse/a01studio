@@ -74,7 +74,10 @@ body {
   outline: 0 !important;
 }
 
-
+.righttext {
+  text-align: right!important;
+  color: #000;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -84,10 +87,10 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 16px;
-  line-height: 1.55;
-  font-weight: 400;
-}
+  font-size: 20px;
+  line-hight: 1.55;
+  font-weight: 500;
+}e
 
 abbr[title],
 abbr[data-original-title] {
@@ -111,7 +114,12 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
-}
+  font-size: 20px;
+  line-hight: 1.55;
+  font-weight: 500;
+  list-style-type: none;
+  padding-bottom: 4rem;}
+
 
 ol ol,
 ul ul,
@@ -369,9 +377,10 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 500;
   font-family: 'PT Sans',Arial,sans-serif;
+  line-height: 30px;
 }
 
 h3, .h3 {
