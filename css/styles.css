@@ -9504,6 +9504,8 @@ blockquote {
   tr,
 img {
     page-break-inside: avoid;
+    object-fit: cover; 
+    object-position: bottom; 
   }
 
   p,
