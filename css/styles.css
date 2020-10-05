@@ -3572,6 +3572,7 @@ hr {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  padding: 0;
 }
 .navbar-nav .nav-link {
   padding-right: 0;
