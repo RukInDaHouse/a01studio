@@ -761,9 +761,7 @@ pre code {
 }
 
 .logo {
-  max-width: 70px; 
-  width: 70px;
-  width: 50%;
+  width: 48px;
 }
 
 .swiper-container {
