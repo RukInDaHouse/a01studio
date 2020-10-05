@@ -103,11 +103,36 @@ body {
 .worksblock {
   width: 100vw;
   height: 90vh;
+  background: red;
 }
 
 .titleblock {
   width: 100vw;
   height: 10vh;
+}
+
+.num {
+    height: 100%;
+    position: relative;
+
+}
+
+.num h2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    left:5%;
+
+}
+.num h3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    right:5%;
+
+
 }
 
 .righttext {
