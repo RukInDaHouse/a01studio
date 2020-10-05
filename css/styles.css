@@ -113,6 +113,7 @@ body {
 
 .num {
     height: 100%;
+    width: 100%;
     position: relative;
 
 }
@@ -131,7 +132,6 @@ body {
     top: 50%;
     transform: translate(0%, -50%);
     right:5%;
-
 
 }
 
