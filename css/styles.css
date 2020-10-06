@@ -222,6 +222,7 @@ body {
   letter-spacing: 0px;
   font-weight:400;
   font-size: 18px;
+  font-family: FuturaBookC;
 }
 
 .righttext a{
@@ -852,7 +853,7 @@ pre code {
 }
 
 .logo {
-  width: 50%;
+  width: 75%;
   padding: 0;
 }
 
