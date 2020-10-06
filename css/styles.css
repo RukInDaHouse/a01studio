@@ -816,6 +816,24 @@ pre code {
   }
 }
 
+.progress-container {
+  width: 100%;
+  height: 4px;
+  background: transparent;
+    z-index: 9999999999999999999!important;
+    position: fixed;
+    top:0;
+
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 4px;
+  background: #fff!important;
+  width: 0%;
+  z-index: 99999999!important;
+}
+
 .logo {
   width: 50%;
   padding: 0;
