@@ -210,7 +210,22 @@ body {
 
 .righttext {
   text-align: right!important;
-  color: #1a1a1a;
+  color: #1a1a1a!important;
+  line-height: 1rem;
+  letter-spacing: 0px;
+}
+
+.politic{
+  text-align: right!important;
+  color: #A6A6A6!important;
+  line-height: 1rem;
+  letter-spacing: 0px;
+  font-weight:400;
+  font-size: 18px;
+}
+
+.righttext a{
+  color: #1a1a1a!important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -247,12 +262,12 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 20px;
-  line-hight: 1.55;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   list-style-type: none;
-  padding-bottom: 4rem;}
+  font-family: FuturaBookC;
+}
+
 
 
 ol ol,
@@ -696,6 +711,7 @@ mark,
   position: absolute;
   left: 0;
   text-align: left;
+  width: 293px;
 
 }
 
