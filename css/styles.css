@@ -97,6 +97,28 @@ body {
   background-color: #fff;
 }
 
+.link-hover-solid a {
+    display: inline-block;
+    color: #000;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.link-hover-solid a:after {
+    background-color: #000;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .5s ease-in-out;
+    -moz--transition: width .5s ease-in-out;
+    transition: width .5s ease-in-out;
+}
+.link-hover-solid a:hover:after,
+.link-hover-solid a:focus:after {
+    width: 100%;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -127,6 +149,11 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
+
+}
+
+.num a {
+   color: #000!important;
 
 }
 
