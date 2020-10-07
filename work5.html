@@ -106,7 +106,6 @@
                 </div>
                         <!-- Add Pagination -->
         </div>
-        <div class="swiper-pagination"></div>
     </div>
                 </div>
             </div>
@@ -183,21 +182,26 @@
         <script src="js/scripts.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script type="text/javascript">
-            var swiper = new Swiper( '.swiper-container.two', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        effect: 'coverflow',
-        loop: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        coverflow: {
-            rotate: 0,
-            stretch: 100,
-            depth: 150,
-            modifier: 1.5,
-            slideShadows : false,
-        }
-} );
+ 
+var swiper = new Swiper('.swiper-container.two', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 10,
+    modifier: 3,
+    slideShadows : true,
+                depth: 150,
+
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
+
+
 
         </script>
     </body>
