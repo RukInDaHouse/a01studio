@@ -350,14 +350,24 @@ body {
 .buttonjob span {
   position: absolute;
   top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+  left: 32px;
+  transform: translate(0%, -50%);
   color: #fff;
   font-family: FuturaMediumC;
-  font-size: 20px;
+  font-size: 30px;
   opacity: 0.7;
   }
+}
+
+.arrowsmall {
+    position: absolute;
+  top: 50%;
+  left: 296px;
+  transform: translate(0%, -50%);
+  color: #fff;
+  font-family: FuturaMediumC;
+  font-size: 30px;
+  opacity: 0.7;
 }
 
 .buttonjob .line {
