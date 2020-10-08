@@ -957,6 +957,10 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.bottomborder {
+  border-bottom: 1px solid #000000;;
+}
+
 .bot {
   margin-bottom: 3rem !important;
   margin-top: 1.5rem !important;
