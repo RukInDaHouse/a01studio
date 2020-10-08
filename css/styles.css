@@ -961,6 +961,14 @@ hr {
   border-bottom: 1px solid #000000;;
 }
 
+.section {
+  position: relative;
+  background: #F7F7F7;
+  z-index: 5;
+  margin-bottom: 50vh;
+  box-shadow: 0 0 12px rgba(0,0,0,.25);
+}
+
 .bot {
   margin-bottom: 3rem !important;
   margin-top: 1.5rem !important;
@@ -10306,6 +10314,11 @@ body {
 .footer {
   padding: 5rem 0;
   background: #E5E5E5;
+    position: fixed;
+  vertical-align: middle;
+  z-index: 0;
+  bottom: 0; right: 0; left: 0;
+  height: 50vh;
 }
 
 
