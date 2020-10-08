@@ -302,8 +302,7 @@ body {
   transition-delay: 0.9s;
 }
 .buttonjob2:hover {
-  background: #1a1a1a;
-  color: #1a1a1a;
+background: rgba(2, 2, 2, 0.5);
 }
 
 @media screen and (max-width: 999px) {
