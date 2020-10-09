@@ -378,6 +378,7 @@ background: rgba(2, 2, 2, 0.5);
   }
 }
 
+@media screen and (min-width: 1000px) {
 .arrowsmall {
     position: absolute;
   top: 50%;
@@ -386,8 +387,10 @@ background: rgba(2, 2, 2, 0.5);
   color: #fff;
   font-family: FuturaMediumC;
   opacity: 0.7;
+  }
 }
 
+@media screen and (min-width: 1000px) {
 .arrowsmallblack {
     position: absolute;
   top: 50%;
@@ -396,9 +399,20 @@ background: rgba(2, 2, 2, 0.5);
   font-family: FuturaMediumC;
   opacity: 0.7;
   color: #000;
+  }
 }
 
+@media screen and (max-width: 999px) {
+.arrowsmall {
+  display: none;
+  }
+}
 
+@media screen and (max-width: 999px) {
+.arrowsmallblack {
+  display: none;
+  }
+}
 .buttonjob .line {
   background: white;
   position: absolute;
