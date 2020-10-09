@@ -11096,19 +11096,20 @@ button.swiper-pagination-bullet {
 .dropdown [data-toggle="dropdown"] {
   position: relative;
   display: block;
-  color: #1A1A1A!important;
+  color: #181818!important;
   background: #fff;
   padding: 10px;
+  font-size: 30px;
+
 }
 .dropdown [data-toggle="dropdown"]:hover {
   background: #1a1a1a;
-  color: #fff;
 }
 .dropdown .icon-arrow {
   position: absolute;
   display: block;
   font-size: 0.7em;
-  color: #fff;
+  color: #181818;
   top: 14px;
   right: 10px;
 }
