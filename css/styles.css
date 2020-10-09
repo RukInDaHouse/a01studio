@@ -11069,11 +11069,10 @@ button.swiper-pagination-bullet {
   }
 }
 
-
-
 .containerdropdown {
   width: 100%;
-  margin: 50px auto;
+  font-family: FuturaMediumC;
+
 }
 .containerdropdown > ul {
   list-style: none;
@@ -11105,6 +11104,16 @@ button.swiper-pagination-bullet {
 .dropdown [data-toggle="dropdown"]:hover {
   background: #1a1a1a;
 }
+
+.dropdown .pricedropdown {
+  position: absolute;
+  display: block;
+  color: #181818;
+  top: 14px;
+  left: 15%;
+  font-weight: 500;
+}
+
 .dropdown .icon-arrow {
   position: absolute;
   display: block;
