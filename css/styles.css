@@ -11158,7 +11158,8 @@ button.swiper-pagination-bullet {
 }
 .dropdown .dropdown-menu li a {
   display: block;
-  color: #6f6f6f;
+  color: #181818!important;
+  font-size: 30px;
   background: #EEE;
   -moz-box-shadow: 0 1px 0 white inset, 0 -1px 0 #d5d5d5 inset;
   -webkit-box-shadow: 0 1px 0 white inset, 0 -1px 0 #d5d5d5 inset;
@@ -11169,12 +11170,7 @@ button.swiper-pagination-bullet {
 .dropdown .dropdown-menu li a:hover {
   background: #f6f6f6;
 }
-.dropdown .show, .dropdown .hide {
-  -moz-transform-origin: 50% 0%;
-  -ms-transform-origin: 50% 0%;
-  -webkit-transform-origin: 50% 0%;
-  transform-origin: 50% 0%;
-}
+
 .dropdown .show {
   display: block;
   max-height: 9999px;
@@ -11185,10 +11181,10 @@ button.swiper-pagination-bullet {
   animation: showAnimation 0.5s ease-in-out;
   -moz-animation: showAnimation 0.5s ease-in-out;
   -webkit-animation: showAnimation 0.5s ease-in-out;
-  -moz-transition: max-height 1s ease-in-out;
-  -o-transition: max-height 1s ease-in-out;
-  -webkit-transition: max-height 1s ease-in-out;
-  transition: max-height 1s ease-in-out;
+  -moz-transition: max-height 5s ease-in-out;
+  -o-transition: max-height 5s ease-in-out;
+  -webkit-transition: max-height 5s ease-in-out;
+  transition: max-height 5s ease-in-out;
 }
 .dropdown .hide {
   max-height: 0;
