@@ -11082,11 +11082,12 @@ button.swiper-pagination-bullet {
 
 .title {
   font-family: FuturaMediumC;
-  font-weight: norma;
+  font-weight: normal;
   font-size: 40px;
   text-align: center;
   line-height: 1.4;
   color: #fff;
+  letter-spacing: 0px;
 }
 
 .dropdown a {
@@ -11102,7 +11103,7 @@ button.swiper-pagination-bullet {
 
 }
 .dropdown [data-toggle="dropdown"]:hover {
-  background: #1a1a1a;
+  background: rgba(2, 2, 2, 0.5);
 }
 
 .dropdown .pricedropdown {
