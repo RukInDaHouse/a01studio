@@ -10124,8 +10124,7 @@ body {
     color: #1a1a1a
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #fff;
-    border-bottom: 0.25rem solid transparent;
+    
   }
   #mainNav.navbar-shrink .nav-link:hover {
     color: #64a19d;
