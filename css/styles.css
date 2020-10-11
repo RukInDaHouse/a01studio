@@ -414,6 +414,23 @@ background: rgba(2, 2, 2, 0.5);
   display: none;
   }
 }
+
+@media screen and (max-width: 999px) {
+.arrowsmall {
+  display: none;
+  }
+}
+
+@media screen and (max-width: 999px) {
+.arrowblack {
+  display: none;
+  }
+}
+
+.titleblock2 h2 {
+  width: 100%;
+}
+
 .buttonjob .line {
   background: white;
   position: absolute;
