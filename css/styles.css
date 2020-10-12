@@ -443,6 +443,28 @@ background: rgba(2, 2, 2, 0.5);
   width: 100%;
 }
 
+@media screen and (max-width: 999px) {
+.titleblock h3 {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  }
+}
+
+@media screen and (max-width: 999px) {
+.titleblock h3 a{
+  font-size: 22px;
+  width: 75%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+.titleblock {
+  height: 15vh!important;
+  background: #333;
+  }
+}
+
 .buttonjob .line {
   background: white;
   position: absolute;
