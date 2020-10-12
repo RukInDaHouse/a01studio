@@ -122,7 +122,7 @@ body {
 .link-hover-center a {
     display: inline-block;
     color: #fff;
-    line-height: 1;
+    line-height: 2.5rem;
     text-decoration: none;
     cursor: pointer;
     position: relative;
@@ -131,7 +131,7 @@ body {
     display: block;
     content: "";
     background-color: #fff;
-    height: 3px;
+    height: 1px;
     width: 0%;
     left: 50%;
     position: absolute;
