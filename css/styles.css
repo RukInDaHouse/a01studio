@@ -1040,6 +1040,16 @@ hr {
   box-shadow: 0 0 12px rgba(0,0,0,.25);
 }
 
+@media screen and (max-width: 999px) {
+.section {
+  position: relative;
+  background: #F7F7F7;
+  z-index: 5;
+  margin-bottom: 500px;
+  box-shadow: 0 0 12px rgba(0,0,0,.25);
+  }
+}
+
 .bot {
   margin-bottom: 3rem !important;
   margin-top: 1.5rem !important;
@@ -10151,14 +10161,24 @@ body {
 .footer {
   padding: 5rem 0;
   background: #E5E5E5;
-    position: fixed;
+  position: fixed;
   vertical-align: middle;
   z-index: 0;
   bottom: 0; right: 0; left: 0;
   height: 50vh;
 }
 
-
+@media screen and (max-width: 999px) {
+.footer {
+  padding: 5rem 0;
+  background: #E5E5E5;
+  position: fixed;
+  vertical-align: middle;
+  z-index: 0;
+  bottom: 0; right: 0; left: 0;
+  height: 500px;
+  }
+}
 
 .button-container-2 {
   position: relative;
