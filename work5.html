@@ -31,7 +31,7 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead2">
+        <header class="masthead2 mobilenone">
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
      
@@ -102,12 +102,89 @@
                     <div class="slider-image">
                         <img class="img-fluid" src="assets/img/05/13.jpg" alt="" />
                     </div>
-                </div>
                         <!-- Add Pagination -->
         </div>
-        </div>
+    </div>
+
                 </div>
             </div>
+        </header>
+        <!-- Masthead-->
+<header class="masthead2 desktopnone">
+            <div class="container d-flex h-100 align-items-center">
+     <div class="swiper-container desktopnone">
+        <div class="swiper-wrapper">
+              
+                            <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/1.jpg" alt="" />
+                    </div>
+                </div>
+                            <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/2.jpg" alt="" />
+                    </div>
+                </div>
+                            <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/3.jpg" alt="" />
+                    </div>
+                </div>
+                                            <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/4.jpg" alt="" />
+                    </div>
+                </div>
+                                            <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/5.jpg" alt="" />
+                    </div>
+                </div>
+                                                <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/6.jpg" alt="" />
+                    </div>
+                </div>
+                                                <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/7.jpg" alt="" />
+                    </div>
+                </div>
+                                                <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/8.jpg" alt="" />
+                    </div>
+                </div>
+                                                <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/9.jpg" alt="" />
+                    </div>
+                </div>
+                                                <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/10.jpg" alt="" />
+                    </div>
+                </div>
+                                                <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/11.jpg" alt="" />
+                    </div>
+                </div>
+                                                <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/12.jpg" alt="" />
+                    </div>
+                </div>
+                                                <div class="swiper-slide">
+                    <div class="slider-image">
+                        <img class="img-fluid" src="assets/img/05/13.jpg" alt="" />
+                    </div>
+                        <!-- Add Pagination -->
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+                </div>
         </header>
         <!-- Masthead-->
 
@@ -180,28 +257,36 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
         <script src="js/scripts.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script type="text/javascript">
- 
-var swiper = new Swiper('.swiper-container.two', {
-  effect: 'coverflow',
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: 'auto',
-  coverflowEffect: {
-    rotate: 0,
-    stretch: 10,
-    modifier: 3,
-    slideShadows : true,
-                depth: 150,
-
-  },
-  pagination: {
-    el: '.swiper-pagination',
-  },
-});
-
-
+                <script type="text/javascript">
+            var swiper = new Swiper( '.swiper-container.two', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        effect: 'coverflow',
+        loop: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflow: {
+            rotate: 0,
+            stretch: 100,
+            depth: 150,
+            modifier: 1.5,
+            slideShadows : false,
+        }
+} );
 
         </script>
+
+                <script type="text/javascript">var mySwiper = new Swiper('.swiper-container', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+})</script>
     </body>
 </html>
