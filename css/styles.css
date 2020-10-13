@@ -485,6 +485,15 @@ background: rgba(2, 2, 2, 0.5);
   }
 }
 
+.transition-translate {
+  position: relative;
+  right: 0;
+  transition: 0.2s linear 0.2s;
+}
+.transition-translate:hover {
+  right: 10px;
+}
+
 .titleblock2 h2 {
   width: 100%;
 }
