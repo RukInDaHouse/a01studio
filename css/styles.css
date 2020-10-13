@@ -166,29 +166,24 @@ canvas {
 .link-hover-center a {
     display: inline-block;
     color: #fff;
-    line-height: 2.5rem;
+    line-height: 1;
     text-decoration: none;
     cursor: pointer;
     position: relative;
 }
 .link-hover-center a:after {
+    background-color: #fff;
     display: block;
     content: "";
-    background-color: #fff;
     height: 1px;
     width: 0%;
-    left: 50%;
-    position: absolute;
-    -webkit-transition: width .3s ease-in-out;
-    -moz--transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
+    -webkit-transition: width .5s ease-in-out;
+    -moz--transition: width .5s ease-in-out;
+    transition: width .5s ease-in-out;
 }
 .link-hover-center a:hover:after,
 .link-hover-center a:focus:after {
-    width: 70%;
+    width: 100%;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
