@@ -485,13 +485,17 @@ background: rgba(2, 2, 2, 0.5);
   }
 }
 
+
 .transition-translate {
-  position: relative;
-  right: 0;
-  transition: 0.2s linear 0.2s;
+ -moz-transition: all 0.5s ease-in-out;
+ -o-transition: all 0.1s ease-in-out;
+ -webkit-transition: all 0.5s ease-in-out;
+ display:block;
 }
 .transition-translate:hover {
-  right: 10px;
+ -webkit-transform: translate(-8px,0);
+ -moz-transform: translate(-8px,0);
+ -o-transform: translate(-8px,0);
 }
 
 .titleblock2 h2 {
@@ -1163,6 +1167,7 @@ mark,
   width: 100%;
   height: auto;
   float: left;
+  z-index: 9999999999;
 }
 
 @media screen and (max-width: 999px) {
@@ -1303,6 +1308,7 @@ pre code {
   }
 }
 
+@media and (min-width: 1000px) {
 .progress-container {
   width: 100%;
   height: 4px;
@@ -1310,7 +1316,14 @@ pre code {
     z-index: 9999999999999999999!important;
     position: fixed;
     top:0;
+  }
+}
 
+
+@media and (max-width: 999px) {
+.progress-container {
+display: none;
+  }
 }
 
 /* The progress bar (scroll indicator) */
