@@ -11278,10 +11278,12 @@ button.swiper-pagination-bullet {
 .pricemenu .icon-arrow {
   position: absolute;
   display: block;
-  font-size: 0.7em;
-  color: #181818;
-  top: 14px;
+  font-size: 2em;
+  color: #1a1a1a;
+  font-weight: 400;
+  top: 0px;
   right: 10px;
+  font-style: normal;
 }
 .pricemenu .icon-arrow.open {
   -moz-transform: rotate(-180deg);
@@ -11304,7 +11306,7 @@ button.swiper-pagination-bullet {
   transition: transform 0.6s;
 }
 .pricemenu .icon-arrow:before {
-  content: '\25BC';
+  content: '\002B';
 }
 .pricemenu .pricemenu-menu {
   max-height: 0;
