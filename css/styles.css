@@ -11317,6 +11317,10 @@ button.swiper-pagination-bullet {
 }
 .pricemenu .pricemenu-menu li {
   padding: 0;
+  background: #EEE;
+}
+.drophead {
+  font-weight: 600;
 }
 .pricemenu .pricemenu-menu li a {
   display: block;
