@@ -1,9 +1,9 @@
-// Dropdown Menu
-var dropdown = document.querySelectorAll('.dropdown');
-var dropdownArray = Array.prototype.slice.call(dropdown,0);
-dropdownArray.forEach(function(el){
-	var button = el.querySelector('a[data-toggle="dropdown"]'),
-			menu = el.querySelector('.dropdown-menu'),
+// pricemenu Menu
+var pricemenu = document.querySelectorAll('.pricemenu');
+var pricemenuArray = Array.prototype.slice.call(pricemenu,0);
+pricemenuArray.forEach(function(el){
+	var button = el.querySelector('a[data-toggle="pricemenu"]'),
+			menu = el.querySelector('.pricemenu-menu'),
 			arrow = button.querySelector('i.icon-arrow');
 
 	button.onclick = function(event) {
