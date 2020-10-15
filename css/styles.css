@@ -11229,12 +11229,12 @@ button.swiper-pagination-bullet {
   }
 }
 
-.containerdropdown {
+.containerpricemenu {
   width: 100%;
   font-family: FuturaMediumC;
 
 }
-.containerdropdown > ul {
+.containerpricemenu > ul {
   list-style: none;
   padding: 0;
   margin: 0 0 20px 0;
@@ -11250,10 +11250,10 @@ button.swiper-pagination-bullet {
   letter-spacing: 0px;
 }
 
-.dropdown a {
+.pricemenu a {
   text-decoration: none;
 }
-.dropdown [data-toggle="dropdown"] {
+.pricemenu [data-toggle="pricemenu"] {
   position: relative;
   display: block;
   color: #181818!important;
@@ -11262,11 +11262,11 @@ button.swiper-pagination-bullet {
   font-size: 30px;
 
 }
-.dropdown [data-toggle="dropdown"]:hover {
+.pricemenu [data-toggle="pricemenu"]:hover {
   background: rgba(2, 2, 2, 0.5);
 }
 
-.dropdown .pricedropdown {
+.pricemenu .pricepricemenu {
   position: absolute;
   display: block;
   color: #181818;
@@ -11275,7 +11275,7 @@ button.swiper-pagination-bullet {
   font-weight: 500;
 }
 
-.dropdown .icon-arrow {
+.pricemenu .icon-arrow {
   position: absolute;
   display: block;
   font-size: 0.7em;
@@ -11283,7 +11283,7 @@ button.swiper-pagination-bullet {
   top: 14px;
   right: 10px;
 }
-.dropdown .icon-arrow.open {
+.pricemenu .icon-arrow.open {
   -moz-transform: rotate(-180deg);
   -ms-transform: rotate(-180deg);
   -webkit-transform: rotate(-180deg);
@@ -11293,7 +11293,7 @@ button.swiper-pagination-bullet {
   -webkit-transition: -webkit-transform 0.6s;
   transition: transform 0.6s;
 }
-.dropdown .icon-arrow.close {
+.pricemenu .icon-arrow.close {
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
@@ -11303,20 +11303,20 @@ button.swiper-pagination-bullet {
   -webkit-transition: -webkit-transform 0.6s;
   transition: transform 0.6s;
 }
-.dropdown .icon-arrow:before {
+.pricemenu .icon-arrow:before {
   content: '\25BC';
 }
-.dropdown .dropdown-menu {
+.pricemenu .pricemenu-menu {
   max-height: 0;
   overflow: hidden;
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.dropdown .dropdown-menu li {
+.pricemenu .pricemenu-menu li {
   padding: 0;
 }
-.dropdown .dropdown-menu li a {
+.pricemenu .pricemenu-menu li a {
   display: block;
   color: #181818!important;
   font-size: 30px;
@@ -11327,11 +11327,11 @@ button.swiper-pagination-bullet {
   text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
   padding: 10px 10px;
 }
-.dropdown .dropdown-menu li a:hover {
+.pricemenu .pricemenu-menu li a:hover {
   background: #f6f6f6;
 }
 
-.dropdown .show {
+.pricemenu .show {
   display: block;
   max-height: 9999px;
   -moz-transform: scaleY(1);
@@ -11341,12 +11341,12 @@ button.swiper-pagination-bullet {
   animation: showAnimation 0.5s ease-in-out;
   -moz-animation: showAnimation 0.5s ease-in-out;
   -webkit-animation: showAnimation 0.5s ease-in-out;
-  -moz-transition: max-height 5s ease-in-out;
-  -o-transition: max-height 5s ease-in-out;
-  -webkit-transition: max-height 5s ease-in-out;
-  transition: max-height 5s ease-in-out;
+  -moz-transition: max-height 3s ease-in-out;
+  -o-transition: max-height 3s ease-in-out;
+  -webkit-transition: max-height 3s ease-in-out;
+  transition: max-height 3s ease-in-out;
 }
-.dropdown .hide {
+.pricemenu .hide {
   max-height: 0;
   -moz-transform: scaleY(0);
   -ms-transform: scaleY(0);
