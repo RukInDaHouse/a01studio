@@ -14,6 +14,35 @@
 <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
   </div>
+
+      <form class="form-horizontal" role="form" method="post" action="mail.php">
+       
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="Ваше имя" name="user_name" value="">
+        </div>
+      </div>
+
+            <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="Ваш телефон" name="user_phone" value="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="Электронная почта" name="user_email" value="">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-12">
+      <textarea class="form-control" rows="10" placeholder="Опишите задачу" name="user_message"></textarea>
+        </div>
+    </div>
+
+      <p><button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">Отправить</button></p>
+      
+    </form>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background: #1a1a1a;">
             <div class="container">
