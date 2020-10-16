@@ -11321,6 +11321,17 @@ button.swiper-pagination-bullet {
 .pricemenu a {
   text-decoration: none;
 }
+@media (max-width: 900px) {
+.pricemenu [data-toggle="pricemenu"] {
+  position: relative;
+  display: block;
+  color: #181818!important;
+  background: #fff;
+  padding: 10px;
+  font-size: 20px;
+  }
+}
+@media (min-width: 999px) {
 .pricemenu [data-toggle="pricemenu"] {
   position: relative;
   display: block;
@@ -11328,12 +11339,13 @@ button.swiper-pagination-bullet {
   background: #fff;
   padding: 10px;
   font-size: 30px;
-
+  }
 }
 .pricemenu [data-toggle="pricemenu"]:hover {
   background: rgba(2, 2, 2, 0.5);
 }
 
+@media (min-width: 999px) {
 .pricemenu .pricepricemenu {
   position: absolute;
   display: block;
@@ -11341,6 +11353,18 @@ button.swiper-pagination-bullet {
   top: 14px;
   left: 15%;
   font-weight: 500;
+  }
+}
+
+@media (max-width: 900px) {
+.pricemenu .pricepricemenu {
+  position: absolute;
+  display: block;
+  color: #181818;
+  top: 14px;
+  left: 35%;
+  font-weight: 500;
+  }
 }
 
 .pricemenu .icon-arrow {
