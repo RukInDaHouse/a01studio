@@ -480,12 +480,13 @@ background: rgba(2, 2, 2, 0.5);
 
 @media screen and (min-width: 1000px) {
 .arrowsize img{
-width: 66%  }
+  width: 66%  
+  }
 }
 
 @media screen and (min-width: 1000px) {
 .arrowsmallblack {
-    position: absolute;
+  position: absolute;
   top: 50%;
   left: 296px;
   transform: translate(0%, -50%);
@@ -10963,13 +10964,13 @@ button.swiper-pagination-bullet {
 .swiper-slide {
     width: 390px;
     height: auto;
-    padding: 0 15px;
+    padding: 0 120px;
 }
 .two .swiper-slide {
-    width: 50%;
+    width: 57%;
 }
-.swiper-slide img {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+.maxcont {
+  max-width:70%!important;
 }
 
 .swiper-slide .slider-image .preview-icon {
