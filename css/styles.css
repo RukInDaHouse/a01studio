@@ -94,7 +94,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background: #E5E5E5;
 }
 
 html, body {
@@ -219,7 +219,7 @@ canvas {
 }
 
 .mainpage p {
-  margin-top: 64vh;
+  margin-top: 70vh;
   background: #1A1A1A;
   width: 99%;
 
@@ -418,7 +418,7 @@ background: rgba(2, 2, 2, 0.5);
   height: 55px;
   position: absolute;
   border: solid rgba(255, 255, 255, 0.3) 1px;
-  background: #1A1A1A;
+  background: #fff;
   cursor: pointer;
   transition: all 1s;
   margin-top: 1%;
@@ -431,7 +431,7 @@ background: rgba(2, 2, 2, 0.5);
   height: 55px;
   position: absolute;
   border: solid rgba(255, 255, 255, 0.3) 1px;
-  background: #1A1A1A;
+  background: #fff;
   cursor: pointer;
   transition: all 1s;
   margin-top: 1%;
@@ -445,10 +445,12 @@ background: rgba(2, 2, 2, 0.5);
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color: #1a1a1a;
   font-family: FuturaBookC;
   font-size: 15px;
   opacity: 0.7;
+  letter-spacing: 0px;
+  font-weight: normal;
   }
 }
 
@@ -458,23 +460,27 @@ background: rgba(2, 2, 2, 0.5);
   top: 50%;
   left: 32px;
   transform: translate(0%, -50%);
-  color: #fff;
+  color: #1a1a1a;
   font-family: FuturaBookC;
   font-size: 30px;
   opacity: 0.7;
+  letter-spacing: 0px;
+  font-weight: normal;
   }
 }
 
 @media screen and (min-width: 1000px) {
 .arrowsmall {
-    position: absolute;
+  position: absolute;
   top: 50%;
-  left: 296px;
   transform: translate(0%, -50%);
-  color: #fff;
-  font-family: FuturaMediumC;
-  opacity: 0.7;
+  right: 10%;
   }
+}
+
+@media screen and (min-width: 1000px) {
+.arrowsize img{
+width: 66%  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -517,6 +523,10 @@ background: rgba(2, 2, 2, 0.5);
 .mobilenone {
   display: none;
   }
+}
+
+.mobilenone img {
+  width: 66%;
 }
 
 @media screen and (min-width: 1000px) {
@@ -618,15 +628,7 @@ background: rgba(2, 2, 2, 0.5);
   opacity: 0;
   transition: all 1s;
 }
-.buttonjob:hover > .line:nth-child(2), .buttonjob:hover > .line:nth-child(5) {
-  transition-delay: 0.5s;
-}
-.buttonjob:hover > .line:nth-child(3), .buttonjob:hover > .line:nth-child(6) {
-  transition-delay: 0.9s;
-}
-.buttonjob:hover {
-  background: rgba(255, 255, 255, 0.03);
-}
+
 
 .titleblock {
   width: 100%;
@@ -685,6 +687,10 @@ background: rgba(2, 2, 2, 0.5);
     font-family: FuturaMediumC;
     font-weight: 500;
 
+}
+
+.num img {
+  width: 10%;
 }
 
 .righttext {
