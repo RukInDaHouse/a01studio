@@ -1,5 +1,5 @@
 $(function() {
-	var Accordion = function(el, multiple) {
+	var accordionserv = function(el, multiple) {
 		this.el = el || {};
 		this.multiple = multiple || false;
 
@@ -9,7 +9,7 @@ $(function() {
 		links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
 	}
 
-	Accordion.prototype.dropdown = function(e) {
+	accordionserv.prototype.dropdown = function(e) {
 		var $el = e.data.el;
 			$this = $(this),
 			$next = $this.next();
@@ -22,5 +22,5 @@ $(function() {
 		};
 	}	
 
-	var accordion = new Accordion($('#accordion'), false);
+	var accordionserv = new accordionserv($('#accordionserv'), false);
 });
