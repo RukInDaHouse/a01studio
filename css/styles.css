@@ -11229,6 +11229,32 @@ button.swiper-pagination-bullet {
   }
 }
 
+@media (max-width: 900px) {
+.pricemenu {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  left: 30%;
+  }
+}
+
+@media (min-width: 999px) {
+.pricemenu {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  left: 20%;
+  }
+}
+
+.priceplus {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  right: 3%;
+  font-weight: 300;
+}
+
 .containerpricemenu {
   width: 100%;
   font-family: FuturaMediumC;
@@ -11320,27 +11346,49 @@ button.swiper-pagination-bullet {
 
 .accordionserv {
   width: 100%;
-  margin: 30px auto 20px;
   background: #FFF;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+  padding: 0;
 }
 
+@media (max-width: 900px) {
 .accordionserv .link {
   cursor: pointer;
   display: block;
-  padding: 15px 15px 15px 42px;
+  padding: 15px 15px 15px 0px;
   color: #181818;
   font-family: FuturaMediumC;
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0px;
   border-bottom: 1px solid #000;
   position: relative;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  }
+}
+
+@media (min-width: 999px) {
+.accordionserv .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px 15px 0px;
+  color: #181818;
+  font-family: FuturaMediumC;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0px;
+  border-bottom: 1px solid #000;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  }
 }
 
 .accordionserv li:last-child .link { border-bottom: 0; }
@@ -11380,8 +11428,12 @@ font-size: 30px;
 
 .submenu {
   display: none;
-  background: #444359;
-  font-size: 14px;
+  background: #fff;
+  font-family: FuturaMediumC;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0px;
 }
 
 .submenu li { border-bottom: 1px solid #4b4a5e; }
