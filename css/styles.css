@@ -267,8 +267,11 @@ canvas {
 }
 
 .about-sectionwhiteminus {
-  padding-top: 0rem!important;
+  padding-top: 5rem!important;
+}
 
+.pdng {
+  padding: 5%; 
 }
 
 .brdtop {
