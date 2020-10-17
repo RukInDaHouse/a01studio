@@ -709,6 +709,10 @@ background: rgba(2, 2, 2, 0.5);
 
 .num img {
   width: 10%;
+  position: absolute;
+  top: 50%;
+    transform: translate(0%, -50%);
+    min-width: 40px;
 }
 
 .righttext {
