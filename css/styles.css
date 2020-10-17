@@ -219,8 +219,9 @@ canvas {
 }
 
 .mainpage p {
-  margin-top: 60vh;
+  margin-top: 64vh;
   background: #1A1A1A;
+  width: 99%;
 
 }
 
