@@ -255,6 +255,16 @@ canvas {
   }
 }
 
+.about-sectionwhiteminus {
+  padding-top: 0rem!important;
+
+}
+
+.brdtop {
+    border-top: 1px solid #000;
+
+}
+
 .show {
   background: #1a1a1a;
 }
