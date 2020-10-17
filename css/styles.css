@@ -272,7 +272,7 @@ canvas {
 }
 
 .brdtop {
-  border-top: 1px solid #000;
+  border-top: 2px solid #000;
 
 }
 
@@ -470,11 +470,20 @@ background: rgba(2, 2, 2, 0.5);
 }
 
 @media screen and (min-width: 1000px) {
-.arrowsmall {
+.buttonjob .arrowsmall {
   position: absolute;
   top: 50%;
   transform: translate(0%, -50%);
   right: 10%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+.buttonjob2 .arrowsmall {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  right: 20%;
   }
 }
 
@@ -504,12 +513,6 @@ background: rgba(2, 2, 2, 0.5);
 
 @media screen and (max-width: 999px) {
 .arrowsmallblack {
-  display: none;
-  }
-}
-
-@media screen and (max-width: 999px) {
-.arrowsmall {
   display: none;
   }
 }
@@ -10505,7 +10508,8 @@ img:not([draggable]), embed, object, video {
     cursor: pointer;
     background-size: 27px 44px;
     background-position: center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    transform: translate(0%, -50%)
 }
 
 .swiper-button-next.swiper-button-disabled,
