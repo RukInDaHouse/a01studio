@@ -10965,16 +10965,29 @@ button.swiper-pagination-bullet {
     margin: auto;
     width: 100%;
     height: 100%;
-;
+
 }
 
+@media (min-width: 999px) {
 .swiper-slide {
     width: 390px;
     height: auto;
     padding: 0 120px;
+  }
 }
+
+@media (max-width: 992px) {
+.swiper-slide {
+    width: 390px;
+    height: auto;
+    padding: 0 80px;
+  }
+}
+
+@media (max-width: 992px) {
 .two .swiper-slide {
     width: 57%;
+  }
 }
 .maxcont {
   max-width:70%!important;
