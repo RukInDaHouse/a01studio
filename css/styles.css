@@ -11679,7 +11679,6 @@ button.swiper-pagination-bullet {
 
 .accordionserv {
   width: 100%;
-  max-width: 360px;
   margin: 30px auto 20px;
   background: #FFF;
   -webkit-border-radius: 4px;
@@ -11691,10 +11690,12 @@ button.swiper-pagination-bullet {
   cursor: pointer;
   display: block;
   padding: 15px 15px 15px 42px;
-  color: #4D4D4D;
-  font-size: 14px;
-  font-weight: 700;
-  border-bottom: 1px solid #CCC;
+  color: #181818;
+  font-family: FuturaMediumC;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+  border-bottom: 1px solid #000;
   position: relative;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
