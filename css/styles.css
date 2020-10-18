@@ -264,6 +264,11 @@ canvas {
   padding-top: 5rem!important;
 }
 
+.projectblock {
+  background: #fff; 
+  max-width: 100%;
+}
+
 .inter {
   line-height: 23px;
   font-family: FuturaBookC; 
