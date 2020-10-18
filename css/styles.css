@@ -700,7 +700,7 @@ background: rgba(2, 2, 2, 0.5);
     position: absolute;
     top: 50%;
     transform: translate(0%, -50%);
-    right:5%;
+    right:7%;
     font-size: 1.7rem;
     font-family: FuturaMediumC;
     font-weight: 500;
@@ -708,11 +708,37 @@ background: rgba(2, 2, 2, 0.5);
 }
 
 .num img {
-  width: 10%;
   position: absolute;
   top: 50%;
-    transform: translate(0%, -50%);
-    min-width: 40px;
+  transform: translate(0%, -50%);
+  min-width: 20px;
+  max-width: 20px;
+  right: 3%;
+  width: 4%;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  display: block;
+
+}
+
+.num img:hover {
+ -webkit-transform: translate(8px,-25px);
+ -moz-transform: translate(8px,-25px);
+ -o-transform: translate(8px,-25px);
+}
+
+.transition-translate-image {
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  display: block;
+}
+
+.transition-translate-image:hover {
+  -webkit-transform: translate(8px,-18.5px);
+  -moz-transform: translate(8px,-19px);
+  -o-transform: translate(8px,-19px);
 }
 
 .righttext {
