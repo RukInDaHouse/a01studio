@@ -267,6 +267,10 @@ canvas {
   padding-top: 5rem!important;
 }
 
+.about-sectionwhitezero {
+  padding-top: 0rem!important;
+}
+
 .projectblock {
   background: #fff; 
   max-width: 100%;
@@ -10358,6 +10362,7 @@ body {
   color: #fff;
 }
 
+@media screen and (min-width: 1900px) {
 .footer {
   padding: 5rem 0;
   background: #E5E5E5;
@@ -10366,8 +10371,20 @@ body {
   z-index: 0;
   bottom: 0; right: 0; left: 0;
   height: 50vh;
+  }
 }
 
+@media screen and (min-width: 1000px) {
+.footer {
+  padding: 5rem 0;
+  background: #E5E5E5;
+  position: fixed;
+  vertical-align: middle;
+  z-index: 0;
+  bottom: 0; right: 0; left: 0;
+  height: 55vh;
+  }
+}
 @media screen and (max-width: 999px) {
 .footer {
   padding: 5rem 0;
