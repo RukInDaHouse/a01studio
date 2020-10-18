@@ -10362,6 +10362,13 @@ body {
   color: #fff;
 }
 
+.politicfont {
+  font-family: FuturaBookC;
+  font-style: normal;
+  letter-spacing: 0;
+  font-size: 20px;
+}
+
 @media screen and (min-width: 1900px) {
 .footer {
   padding: 5rem 0;
