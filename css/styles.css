@@ -1465,6 +1465,24 @@ display: none;
   margin-left: -0.75rem;
 }
 
+@media screen and (max-width: 999px) {
+.rownonedisplay {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+.rownonedisplay {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+  }
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
