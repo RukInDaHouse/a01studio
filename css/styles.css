@@ -1,6 +1,9 @@
-.swiper-button-next {
-background-image: none!important; 
- background: #c7b39b;
+.ymaps-layers-pane {
+  filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
 }
 
 @charset "UTF-8";
@@ -1480,6 +1483,7 @@ display: none;
   flex-wrap: nowrap;
   margin-right: -0.75rem;
   margin-left: -0.75rem;
+  height: 10vh;
   }
 }
 
