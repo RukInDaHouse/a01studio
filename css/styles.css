@@ -497,13 +497,19 @@ background: rgba(2, 2, 2, 0.5);
   position: absolute;
   top: 50%;
   transform: translate(0%, -50%);
-  right: 20%;
+  right: 5%;
   }
 }
 
 @media screen and (min-width: 1000px) {
-.arrowsize img{
-  width: 66%  
+  .buttonjob2 .arrowsize img{
+  width: 36%;  
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .buttonjob .arrowsize img{
+  width: 66%;  
   }
 }
 
@@ -722,7 +728,7 @@ background: rgba(2, 2, 2, 0.5);
 
 }
 
-.num img:hover {
+.titleblock:hover .num img {
  -webkit-transform: translate(8px,-25px);
  -moz-transform: translate(8px,-25px);
  -o-transform: translate(8px,-25px);
@@ -735,10 +741,16 @@ background: rgba(2, 2, 2, 0.5);
   display: block;
 }
 
-.transition-translate-image:hover {
+.buttonjob:hover .transition-translate-image {
   -webkit-transform: translate(8px,-18.5px);
-  -moz-transform: translate(8px,-19px);
-  -o-transform: translate(8px,-19px);
+  -moz-transform: translate(8px,-18.5px);
+  -o-transform: translate(8px,-18.5px);
+}
+
+.buttonjob2:hover .transition-translate-image {
+  -webkit-transform: translate(8px,-10px);
+  -moz-transform: translate(8px,-10px);
+  -o-transform: translate(8px,-10px);
 }
 
 .righttext {
