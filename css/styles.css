@@ -562,11 +562,22 @@ background: rgba(2, 2, 2, 0.5);
   }
 }
 
+@media screen and (max-width: 999px) {
+.mobilenone img {
+  display: none!important;
+  }
+}
 
 @media screen and (min-width: 1000px) {
 .desktopnone {
   display: none!important;
   opacity: 0;
+  }
+}
+
+@media screen and (max-width: 999px) {
+.mobilepadding {
+  padding-top: 15%!important;
   }
 }
 
@@ -717,11 +728,24 @@ background: rgba(2, 2, 2, 0.5);
     position: absolute;
     top: 50%;
     transform: translate(0%, -50%);
-    right:7%;
+    right:9%;
     font-size: 1.7rem;
     font-family: FuturaMediumC;
     font-weight: 500;
 
+}
+
+@media screen and (max-width: 999px) {
+.num h3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    right:7%;
+    font-size: 1.7rem;
+    font-family: FuturaMediumC;
+    font-weight: 500;
+  }
 }
 
 .num img {
@@ -737,6 +761,12 @@ background: rgba(2, 2, 2, 0.5);
   -webkit-transition: all 0.5s ease-in-out;
   display: block;
 
+}
+
+@media screen and (max-width: 999px) {
+.num img {
+  display: none!important;
+  }
 }
 
 .titleblock:hover .num img {
