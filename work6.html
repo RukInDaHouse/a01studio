@@ -259,24 +259,24 @@
        <h1 class="section-header">Заполнить форму</h1>
       <div class="form-group">
         <div class="col-sm-12">
-          <input type="text" class="form-control" id="name" placeholder="Ваше имя" name="user_name" value="">
+          <input type="text" class="form-control" id="name" pattern="^[А-Яа-яЁё\s]+$" minlength="1" maxlength="18" placeholder="Ваше имя" name="user_name" value="" required>
         </div>
       </div>
 
             <div class="form-group">
         <div class="col-sm-12">
-          <input type="text" class="form-control" id="name" placeholder="Ваш телефон" name="user_phone" value="">
+          <input type="text" class="form-control" id="name" pattern="[0-9]{6,18}" placeholder="Ваш телефон" name="user_phone" value="" required>
         </div>
       </div>
 
       <div class="form-group">
         <div class="col-sm-12">
-          <input type="email" class="form-control" id="email" placeholder="Электронная почта" name="user_email" value="">
+          <input type="email" class="form-control" id="email" placeholder="Электронная почта" name="user_email" value="" required>
         </div>
       </div>
       <div class="form-group">
         <div class="col-sm-12">
-      <textarea class="form-control" rows="10" placeholder="Опишите задачу" name="user_message"></textarea>
+      <textarea class="form-control" rows="10" pattern="^[А-Яа-яЁё\s]+$" placeholder="Опишите задачу" name="user_message"></textarea>
         </div>
     </div>
 
