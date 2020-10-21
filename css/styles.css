@@ -51,6 +51,13 @@
 }
 
 @font-face {
+    font-family: "FuturaPT";
+    src: url("../fonts/FuturaPT.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
     font-family: "FuturaBookC";
     src: url("../fonts/FuturaBookC.ttf") format("truetype");
     font-style: normal;
@@ -11452,6 +11459,7 @@ button.swiper-pagination-bullet {
   top: 50%;
   transform: translate(0%, -50%);
   left: 30%;
+  font-family: FuturaPT;
   }
 }
 
@@ -11461,6 +11469,8 @@ button.swiper-pagination-bullet {
   top: 50%;
   transform: translate(0%, -50%);
   left: 20%;
+  font-family: FuturaPT;
+
   }
 }
 
