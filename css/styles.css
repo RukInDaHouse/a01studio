@@ -5426,7 +5426,7 @@ a.badge-black:focus, a.badge-black.focus {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
-  color: #1a1a1a
+  color: #1a1a1a;
   text-shadow: 0 1px 0 #fff;
   opacity: 0.5;
 }
@@ -11190,6 +11190,13 @@ button.swiper-pagination-bullet {
   margin-bottom: 25px;
 }
 
+@media screen and (max-width: 900px) {
+  .modalDialog h1 {
+    font-size: 40px;
+  }
+}
+ 
+
 .contact-wrapper {
   margin: 0 auto;
   padding-top: 20px;
@@ -11205,6 +11212,15 @@ button.swiper-pagination-bullet {
   font-weight: 400;
 }
 
+@media screen and (max-width: 900px) {
+.form-horizontal {
+  float: left;
+  max-width: 400px;
+  font-family: 'Lato';
+  font-weight: 400;
+  }
+}
+
 .form-control, textarea {
   max-width: 400px;
   background-color: #111;
@@ -11213,8 +11229,6 @@ button.swiper-pagination-bullet {
 }
 
 .send-button {
-  
-  
   width: 400px;
   overflow: hidden;
   transition: all .2s ease-in-out;
@@ -11394,6 +11408,7 @@ button.swiper-pagination-bullet {
   .form-control, textarea {
     max-width: 340px;
     margin: 0 auto;
+    max-height: 40px;
   }
   
   .name, .email, textarea {
@@ -11536,6 +11551,11 @@ button.swiper-pagination-bullet {
   z-index: 999999999999;
 }
 
+@media screen and (max-width: 900px) {
+.close{ 
+  right: 15px; 
+  }
+}
 .close:hover { 
   background: #1a1a1a; 
 
