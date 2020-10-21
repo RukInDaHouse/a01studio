@@ -11699,16 +11699,19 @@ input:valid {
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
-  font-family: FuturaMediumC;
+  font-family: FuturaBookC;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 0px;
   text-align: center;
   background: #1a1a1a;
   width: 190px;
   height: 55px;
   content: " ";
+  position: relative;
+  margin-top: 5%;
+
   }
 }
 
@@ -11720,7 +11723,7 @@ input:valid {
   -webkit-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
-  font-family: FuturaMediumC;
+  font-family: FuturaBookC;
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
