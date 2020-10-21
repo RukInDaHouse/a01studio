@@ -7,7 +7,6 @@
         <title>Репино парк</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body><div class="section">
@@ -122,8 +121,19 @@
                         <img class="img-fluid" src="assets/img/08/13.jpg" alt="" />
                     </div>
                 </div>       <!-- Add Pagination -->
-        </div>
+           </div>
+<div class="swiper-button-prev">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 44"><path d="M0,22L22,0l2.1,2.1L4.2,22l19.9,19.9L22,44L0,22L0,22L0,22z"></svg>
+  </div>
+  <div class="swiper-button-next">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 44"><path d="M27,22L27,22L5,44l-2.1-2.1L22.8,22L2.9,2.1L5,0L27,22L27,22z"></svg>
+  </div>
     </div>
+
+                </div>
+            </div>
+        </div>
+        </section>
 
                 </div>
             </div>
@@ -226,7 +236,7 @@
         </section> 
 
 <section class="about-sectionwhite text-left mobilenone about-sectionwhitezero">
-            <div class="container">
+            <div class="container brdtop">
                 <div class="row">
                     <div class="col-md-5 mx-auto pdng"><div class="num"><h2>Хочешь работать с нами?</h2></div></div>
                     <div class="col-md-2 mx-auto"></div>
@@ -351,11 +361,11 @@ viewBox="0 0 484 214"
         effect: 'coverflow',
         loop: true,
         centeredSlides: true,
-                navigation: {
+        slidesPerView: 'auto',
+        navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
     },
-        slidesPerView: 'auto',
         coverflowEffect: {
             rotate: 0,
             stretch: 100,
