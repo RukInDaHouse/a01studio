@@ -465,7 +465,10 @@ background: rgba(2, 2, 2, 0.5);
   cursor: pointer;
   transition: all 1s;
   margin-top: 1%;
-  right: 0.75rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+
   }
 }
 
